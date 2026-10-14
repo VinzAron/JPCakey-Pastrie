@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff8df">
+    <meta name="description" content="Japanese-style cakes and pastries, freshly baked to order in Angeles City, Pampanga.">
+    <title>JPCakey | Japanese Cakes &amp; Pastries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html" aria-label="JPCakey home">
+                <img src="img/icon/Logo.png" alt="JPCakey Japanese Cake logo">
+                <span class="brand-copy"><strong>JPCakey</strong><small>JAPANESE CAKE</small></span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+                <span></span><span></span>
+            </button>
+
+            <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" aria-current="page">Contact</a>
+                <a class="nav-order" href="contact.html">Order a box <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="page-view contact-view" id="contact" data-page="contact" aria-labelledby="contact-title">
+            <div class="reference-title-band contact-title-band">
+                <h1 id="contact-title">ORDER &amp; CONTACT</h1>
+            </div>
+
+            <div class="contact-intro-band">
+                <p>Got a craving, a bulk order inquiry, or a question about our Japcakes? Fill out the form below or reach out to us directly, and we’ll get back to you in a flash!</p>
+            </div>
+
+            <h2 class="contact-section-title" id="form-title">Contact Form</h2>
+
+            <div class="contact-form-band">
+                <form id="contact-form" class="reference-contact-form">
+                    <div class="contact-field-row">
+                        <label for="contact-name">Name:</label>
+                        <input id="contact-name" name="name" type="text" autocomplete="name" required>
+                    </div>
+
+                    <div class="contact-field-row">
+                        <label for="contact-email">Email:</label>
+                        <input id="contact-email" name="email" type="email" autocomplete="email" required>
+                    </div>
+
+                    <div class="contact-field-row message-field">
+                        <label for="contact-message">Message/Order details:</label>
+                        <textarea id="contact-message" name="message" rows="2" required></textarea>
+                    </div>
+
+                    <button class="contact-submit" type="submit">Send order inquiry <span aria-hidden="true">↗</span></button>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+
+            <h2 class="contact-section-title" id="contact-info-title">Our Contact Information</h2>
+
+            <div class="contact-info-band" aria-labelledby="contact-info-title">
+                <div class="contact-info-row">
+                    <strong>Phone:</strong>
+                    <a href="tel:+639998888777">+639998888777</a>
+                </div>
+
+                <div class="contact-info-row">
+                    <strong>Email:</strong>
+                    <a href="mailto:jpcakey@gmail.com">jpcakey@gmail.com</a>
+                </div>
+
+                <div class="contact-info-row">
+                    <strong>Address:</strong>
+                    <span>Angeles City, Pampanga, Philippines</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="content-width footer-main">
+            <a class="footer-brand" href="index.html" aria-label="JPCakey home">
+                <img src="img/icon/Logo.png" alt="JPCakey logo">
+            </a>
+
+            <div class="footer-location">
+                <p>Angeles City, Pampanga, Philippines</p>
+                <p>JPCakey © 2026</p>
+            </div>
+
+            <div class="footer-social">
+                <h2 class="footer-label">Follow our Socials</h2>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/JPCakeyPH" aria-label="Facebook: JPCakey PH" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icon/Facebook%20Icon.png" alt=""><span>JPCakey PH</span>
+                    </a>
+                    <a href="https://www.instagram.com/jpcakey.ph/" aria-label="Instagram: @jpcakey.ph" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icon/Instagram%20Icon.png" alt=""><span>@jpcakey.ph</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@jpcakey.ph" aria-label="TikTok: @jpcakey.ph" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icon/Tiktok%20Icon.png" alt=""><span>@jpcakey.ph</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
